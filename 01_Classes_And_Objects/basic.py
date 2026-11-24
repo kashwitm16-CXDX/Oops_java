@@ -13,7 +13,7 @@ so what we do ,we know that name is a string so we can use string datatype to st
  /*now teacher says create datatype to store 5 students data which includes roll number ,marks and name of students
  so we get confusion here because we have 3 different datatypes to store 3 different data types of students
  simply we write int[] roll_number = new int[5];
- string[] names = new string[5];
+ String[] names = new string[5];
  float[] marks = new float[5];
 
  teacher says fine but you have create different datatypes for different parameters of students 
@@ -29,7 +29,7 @@ student kashwi; // this will create an object of Student class named kashwi
 //creating a class named Student
 class Student{
     int roll_number;
-    string name;
+    String name;
     float marks;
 }
 
@@ -63,14 +63,14 @@ object = physical entity which is created using class
 */
 
 
-public class 01.basic {
+public class basic {
 public static void main(String[] args) {
 
     //to store roll number of 5 students
     int[] roll_number = new int[5]; // this will create an array of 5 integers to store roll numbers of students
 
     //to store names of 5 students
-    string[] names = new string[5]; // this will create an array of 5 strings to store names of students    
+    String[] names = new String[5]; // this will create an array of 5 strings to store names of students    
 
     //to store marks of 5 students
     float[] marks = new float[5]; // this will create an array of 5
@@ -78,12 +78,13 @@ public static void main(String[] args) {
     //to store 5 students data which includes roll number ,marks and name of students
     Student[] student = new Student[5]; // this will create an array of 5 Student objects
     student kashwi; // this will create an object of Student class named kashwi
+}
 
     class Student{
         int roll_number;    
-        string name;
+        String name;
         float marks;
     }
 
 }
-}
+
