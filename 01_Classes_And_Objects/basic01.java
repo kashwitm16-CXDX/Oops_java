@@ -63,7 +63,7 @@ object = physical entity which is created using class
 */
 
 
-public class basic {
+public class basic01 {
 public static void main(String[] args) {
 
     //to store roll number of 5 students
